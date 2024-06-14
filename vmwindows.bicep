@@ -27,7 +27,7 @@ param publicIpSku string = 'Basic'
 param OSVersion string = '20_04-lts-gen2'
 
 @description('Size of the virtual machine.')
-param vmSize string = 'Standard_D4s_v3'
+param vmSize string = 'Standard_D4ads_v5'
 
 @description('Location for all resources.')
 param location string = resourceGroup().location
